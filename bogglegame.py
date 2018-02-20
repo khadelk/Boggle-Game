@@ -202,3 +202,5 @@ class Boggle():
         for i in self.aList:
             self.aDictionary = makeTrie(self.aDictionary,0,i)
         return self.F 
+    
+Boggle()
